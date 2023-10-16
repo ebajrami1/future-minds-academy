@@ -1,0 +1,68 @@
+body {
+    background-image: url("image/img.png");
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+    color: blueviolet;
+    width: 80%;
+}
+
+h1 {
+    color: rgb(221, 206, 235);
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin: 0% auto;
+}
+
+#home {
+    text-align: center;
+    background-color: rgb(83, 196, 172);
+    margin-right: 5px;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#contact {
+    background-color: rgb(83, 196, 172);
+    color: white;
+    margin-left: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+#project1 {
+    background-color: rgb(100, 116, 131);
+    text-align: center;
+    margin: 5px;
+}
+
+#project2 {
+    background-color: rgb(100, 116, 131);
+    text-align: center;
+    margin: 5px;
+}
+
+#project3 {
+    background-color: rgb(100, 116, 131);
+    text-align: center;
+    margin: 5px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}

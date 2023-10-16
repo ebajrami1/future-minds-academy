@@ -1,0 +1,103 @@
+body {
+    background-image: url("image/img.png");
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+    color: blueviolet;
+    width: 80%;
+}
+
+h1 {
+    color: rgb(221, 206, 235);
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    width: 80%;
+    margin: 0% auto;
+}
+
+#eldi {
+    background-color: rgb(143, 143, 78);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: 0% auto;
+}
+
+#img {
+    text-align: center;
+}
+
+#project {
+    text-align: center;
+    background-color: rgb(83, 196, 172);
+    margin-right: 5px;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#contact {
+    background-color: rgb(83, 196, 172);
+    color: white;
+    margin-left: 5px;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+
+#Education {
+    background-color: rgb(105, 83, 75);
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+    margin: 0% auto;
+}
+
+h4 {
+    text-align: center;
+}
+
+.ed {
+    border-collapse: collapse;
+    background-color: rgb(212, 202, 202);
+    border: 0px;
+    padding: 4px;
+    border-radius: 10px
+}
+
+#ms {
+    background-color: rgb(76, 162, 76);
+    width: 80%;
+    margin: 0% auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.skills {
+    border-radius: 10px;
+}
+
+#mp {
+    background-color: rgb(130, 25, 43);
+    width: 80%;
+    margin: 0% auto;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}

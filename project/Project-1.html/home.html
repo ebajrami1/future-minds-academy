@@ -5,88 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="image/icon.png">
+    <link rel="stylesheet" href="./home.css">
 </head>
 
 <body>
     <header>
-        <h1> Personale Portfolie</h1>
         <hr>
-    </header>
-    <nav>
-        <ul>
-            <a href="project.html">
-                <li>My Projects&#x1F680;</li>
-            </a>
-            <a href="contact.html">
-                <li>Contact Me!&#128153;</li>
-            </a>
-        </ul>
-    </nav>
-    <hr>
-    <section>
-        <h4>Who is Eldi Bajrmai?</h4>
-        <img src="image/eldi.png" width="200">
-        <p> Pershendetje un jam Eldi Bajrmai jam nga gjilani jam 23 vjeqar
-            kam kryer shkollen e Mesme ne drejtimin e Menagjim Turizmi</p>
-    </section>
-    <br>
-    <hr>
-    <section>
-        <h4>Education</h4>
-        <ul>
-            <li>Primary School:</li>
+        <h1> Personale Portfolie</h1>
+        <nav>
             <ul>
-                <li><strong>Selami Hallaqi</strong> (2008-2015)</li>
-                <li><strong>Marlin Barleti</strong>(2016-2018)</li>
+                <div id="project"><a href="project.html">
+                        <li>My Projects&#x1F680;</li>
+                    </a></div>
+                <div id="contact"> <a href="contact.html">
+                        <li>Contact Me!&#128153;</li>
+                    </a></div>
             </ul>
-        </ul>
-        <ul>
-            <li>High School: <strong>Very cool high school</strong>(2018-2021)</li>
-            <li>University:</li>
-            <ul>
+        </nav>
+    </header>
+    <hr>
+
+    <article>
+
+        <section>
+            <div id="eldi">
+                <h4>Who is Eldi Bajrami?</h4>
+                <div id="img">
+                    <img src="image/eldi.png" width="200">
+                </div>
+                <p> Pershendetje un jam Eldi Bajrmai jam nga gjilani jam 23 vjeqar
+                    kam kryer shkollen e Mesme ne drejtimin e Menagjim Turizmi</p>
+            </div>
+        </section>
+
+
+        <hr>
+
+        <section id="Education">
+
+            <h4>Education</h4>
+            <ul class="ed">
+                <li>Primary School:</li>
+                <ul>
+                    <li><strong>Selami Hallaqi</strong> (2008-2015)</li>
+                    <li><strong>Marlin Barleti</strong>(2016-2018)</li>
+                </ul>
+            </ul>
+            <ul class="ed">
+                <li>High School: <strong>Very cool high school</strong>(2018-2021)</li>
+                <li>University:</li>
+            </ul>
+            <ul class="ed">
                 <li>Bachelors degree in <strong>computer science</strong> from the University of rangom(2021-2023)</li>
                 <li>professional degree in <strong>Web and Mobile Development</strong> from random
                     incorporated(2020-2022)
                 </li>
             </ul>
-        </ul>
-    </section>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section id="ms">
+            <h4>My skills</h4>
+            <table border width="550" class="skills">
+                <tr>
+                    <th>#</th>
+                    <th><strong>English Language</strong></th>
+                    <th><strong>Mathematices</strong></th>
+                    <th><strong>HTML5</strong></th>
+                    <th><strong>CSS3</strong></th>
+                    <th><strong>JavaScript</strong></th>
+                    <th><strong>Networking</strong></th>
+                </tr>
+                <tr>
+                    <td><strong>Rating</strong></td>
+                    <td>10.0</td>
+                    <td>10.0</td>
+                    <td>9.0</td>
+                    <td>8.8</td>
+                    <td>7.6</td>
+                    <td>5.3</td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <div id="mp">
+                <h4>My Project</h4>
+                <p>1.E-commerce Website Development Project<span id="read1"><a href="project.html#p1">&#9205;
+                            Read More</a></p>
+                <p>2.Educational Platform Development Project<span id="read2"><a href="project.html#p2">&#9205;Read
+                            More</a></p>
+                </span>
+                <p>3.Community Blogging Website Project<span id="read3"><a href="project.html#p3">&#9205;Read More</a>
+                </p></span>
+            </div>
+        </section>
+    </article>
+
     <hr>
-    <section>
-        <h4>My skills</h4>
-        <table border width="550">
-            <tr>
-                <th>#</th>
-                <th><strong>English Language</strong></th>
-                <th><strong>Mathematices</strong></th>
-                <th><strong>HTML5</strong></th>
-                <th><strong>CSS3</strong></th>
-                <th><strong>JavaScript</strong></th>
-                <th><strong>Networking</strong></th>
-            </tr>
-            <tr>
-                <td><strong>Rating</strong></td>
-                <td>10.0</td>
-                <td>10.0</td>
-                <td>9.0</td>
-                <td>8.8</td>
-                <td>7.6</td>
-                <td>5.3</td>
-            </tr>
-        </table>
-    </section>
-    <hr>
-    <section>
-        <h4>My Project</h4>
-        <p>1.E-commerce Website Development Project<a href="project.html#p1">&#9205; Read More</a></p>
-        <p>2.Educational Platform Development Project<a href="project.html#p2">&#9205;Read More</a></p>
-        <p>3.Community Blogging Website Project<a href="project.html#p3">&#9205;Read More</a></p>
-    </section>
-    <hr>
+
     <footer>
-        <p>Inform us about everything &COPY;</p>
+        <div>
+            <p id="footer">Inform us about everything &COPY;</p>
+        </div>
     </footer>
+
 </body>
 
 </html>
